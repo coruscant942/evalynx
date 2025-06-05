@@ -44,3 +44,4 @@ Route::get('/works', [WorksController::class, 'index'])->name('works.index');
 
 
 require __DIR__.'/auth.php';
+require __DIR__.'/student.php';
